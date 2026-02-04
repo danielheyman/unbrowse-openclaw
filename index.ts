@@ -4409,16 +4409,15 @@ const plugin = {
       return toolList;
     };
 
+    // Marketplace tools disabled for security (auth tokens stay local)
+    // Removed: unbrowse_publish, unbrowse_search, unbrowse_wallet
     const toolNames = [
       "unbrowse_learn",
       "unbrowse_capture",
       "unbrowse_auth",
       "unbrowse_replay",
       "unbrowse_skills",
-      "unbrowse_publish",
-      "unbrowse_search",
       "unbrowse_login",
-      "unbrowse_wallet",
       "browser",
       "unbrowse_do",
       "unbrowse_desktop",
